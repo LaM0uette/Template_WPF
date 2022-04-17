@@ -12,10 +12,28 @@
         WindowStartupLocation="CenterScreen" 
         WindowStyle="None" 
         AllowsTransparency="True"
-        Icon="/main.png">
+        Icon="/main.png"
+        BorderBrush="{StaticResource RgbM2}"
+        BorderThickness="1">
     
     <Grid>
-
+        <Grid.RowDefinitions>
+            <RowDefinition Height="25"/>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="20" />
+        </Grid.RowDefinitions>
+        
+        <!-- Header -->
+        <Grid Grid.Row="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            
+            <Image Grid.Column="0" HorizontalAlignment="Left" Width="25" Height="25" Source="assets/img/main/main.png" />
+        </Grid>
+        
     </Grid>
     
 </Window>
