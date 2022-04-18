@@ -53,7 +53,7 @@
                         Width="25"
                         Height="25"
                         Background="{StaticResource RgbM1}">
-                    <Image Source="assets/img/ui/quitter.png"
+                    <Image Source="/assets/img/ui/quitter.png"
                            Width="20"
                            Height="20"
                            />
