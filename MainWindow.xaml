@@ -12,7 +12,7 @@
         WindowStartupLocation="CenterScreen" 
         WindowStyle="None" 
         AllowsTransparency="True"
-        Icon="assets/img/main/main.png"
+        Icon="/main.png"
         BorderBrush="{StaticResource RgbM2}"
         BorderThickness="1">
 
@@ -35,7 +35,16 @@
                 <ColumnDefinition Width="*" />
             </Grid.ColumnDefinitions>
 
+            <!-- Icon app -->
             <Image Grid.Column="0" HorizontalAlignment="Left" Width="25" Height="25" Source="/main.png" />
+            
+            <!-- Title app -->
+            <Label Grid.Column="1" 
+                   Style="{StaticResource Title}"
+                   Content="TemplateWPF" 
+                   HorizontalContentAlignment="Center"
+                   VerticalContentAlignment="Center"
+                   />
         </Grid>
 
     </Grid>
