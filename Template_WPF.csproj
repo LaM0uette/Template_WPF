@@ -8,11 +8,21 @@
     </PropertyGroup>
 
     <ItemGroup>
+      <None Remove="assets\img\main\main.png" />
+      <None Remove="assets\img\main\main.svg" />
       <None Remove="main.png" />
+      <None Remove="main.svg" />
     </ItemGroup>
 
     <ItemGroup>
+      <Resource Include="assets\img\main\main.png">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Resource>
+      <Resource Include="assets\img\main\main.svg">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Resource>
       <Resource Include="main.png" />
+      <Resource Include="main.svg" />
     </ItemGroup>
 
 </Project>
