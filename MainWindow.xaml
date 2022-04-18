@@ -11,6 +11,7 @@
         ResizeMode="CanResizeWithGrip" 
         WindowStartupLocation="CenterScreen" 
         WindowStyle="None" 
+        SnapsToDevicePixels="True"
         AllowsTransparency="True"
         Icon="/main.png"
         BorderBrush="{StaticResource RgbM2}"
@@ -28,7 +29,7 @@
         </Grid.RowDefinitions>
 
         <!-- Header -->
-        <Grid Grid.Row="0" Grid.ColumnSpan="2">
+        <Grid Grid.Row="0" x:Name="GrdHeader" Grid.ColumnSpan="2" Background="{StaticResource RgbM1}" PreviewMouseMove="GrdHeader_PreviewMouseMove">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="*" />
                 <ColumnDefinition Width="*" />
@@ -41,9 +42,10 @@
             <!-- Title app -->
             <Label Grid.Column="1" 
                    Style="{StaticResource Title}"
-                   Content="TemplateWPF" 
                    HorizontalContentAlignment="Center"
                    VerticalContentAlignment="Center"
+                   Content="TemplateWPF" 
+                   Foreground="{StaticResource RgbM3}"
                    />
         </Grid>
 
