@@ -47,6 +47,18 @@
                    Content="TemplateWPF" 
                    Foreground="{StaticResource RgbM3}"
                    />
+            
+            <StackPanel Grid.Column="2">
+                <Button HorizontalAlignment="Right"
+                        Width="25"
+                        Height="25"
+                        Background="{StaticResource RgbM1}">
+                    <Image Source="assets/img/ui/quitter.png"
+                           Width="20"
+                           Height="20"
+                           />
+                </Button>
+            </StackPanel>
         </Grid>
 
     </Grid>
