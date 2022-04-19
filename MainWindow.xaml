@@ -16,7 +16,7 @@
         WindowStartupLocation="CenterScreen"
         TitleAlignment="Center"
         Icon="{StaticResource ImgMain}"
-        GlowBrush="{StaticResource RgbM1}"
+        GlowBrush="{StaticResource RgbM2}"
         WindowTitleBrush="{StaticResource RgbM1}"
         FontFamily="{DynamicResource FontRoboto}"
         >
