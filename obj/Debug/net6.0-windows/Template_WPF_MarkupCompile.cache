@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
 C:\Prog\C#\Template_WPF\App.xaml
-31657638785
+5-118560787
 
 3-1233169557
 197-1361524210
-assets\themes\LaM0uette\colors.xaml;assets\themes\LaM0uette\font.xaml;MainWindow.xaml;
+assets\img\img.xaml;assets\theme\LaM0uette\colors.xaml;assets\theme\LaM0uette\font.xaml;assets\variable\variables.xaml;MainWindow.xaml;
 
 False
 

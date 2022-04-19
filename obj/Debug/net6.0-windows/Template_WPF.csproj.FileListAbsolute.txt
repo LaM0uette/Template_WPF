@@ -27,8 +27,6 @@ C:\Prog\C#\Template_WPF\bin\Debug\net6.0-windows\Template_WPF.runtimeconfig.json
 C:\Prog\C#\Template_WPF\bin\Debug\net6.0-windows\Template_WPF.dll
 C:\Prog\C#\Template_WPF\bin\Debug\net6.0-windows\Template_WPF.pdb
 C:\Prog\C#\Template_WPF\obj\Debug\net6.0-windows\Template_WPF.csproj.AssemblyReference.cache
-C:\Prog\C#\Template_WPF\obj\Debug\net6.0-windows\assets\themes\LaM0uette\colors.baml
-C:\Prog\C#\Template_WPF\obj\Debug\net6.0-windows\assets\themes\LaM0uette\font.baml
 C:\Prog\C#\Template_WPF\obj\Debug\net6.0-windows\MainWindow.baml
 C:\Prog\C#\Template_WPF\obj\Debug\net6.0-windows\App.baml
 C:\Prog\C#\Template_WPF\obj\Debug\net6.0-windows\MainWindow.g.cs
@@ -49,3 +47,7 @@ C:\Prog\C#\Template_WPF\bin\Debug\net6.0-windows\MahApps.Metro.dll
 C:\Prog\C#\Template_WPF\bin\Debug\net6.0-windows\Microsoft.Xaml.Behaviors.dll
 C:\Prog\C#\Template_WPF\bin\Debug\net6.0-windows\de\MahApps.Metro.resources.dll
 C:\Prog\C#\Template_WPF\obj\Debug\net6.0-windows\Template_WPF.csproj.CopyComplete
+C:\Prog\C#\Template_WPF\obj\Debug\net6.0-windows\assets\theme\LaM0uette\colors.baml
+C:\Prog\C#\Template_WPF\obj\Debug\net6.0-windows\assets\theme\LaM0uette\font.baml
+C:\Prog\C#\Template_WPF\obj\Debug\net6.0-windows\assets\variable\variables.baml
+C:\Prog\C#\Template_WPF\obj\Debug\net6.0-windows\assets\img\img.baml
