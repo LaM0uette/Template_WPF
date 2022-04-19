@@ -2,5 +2,9 @@
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
     
     <FontFamily x:Key="FontRoboto">./assets/font/#Roboto-Regular</FontFamily>
+    <FontFamily x:Key="FontRobotoMedium">./assets/font/#Roboto-Medium</FontFamily>
+    <FontFamily x:Key="FontRobotoMediumItalic">./assets/font/#Roboto-MediumItalic</FontFamily>
+    <FontFamily x:Key="FontRobotoBold">./assets/font/#Roboto-Bold</FontFamily>
+    <FontFamily x:Key="FontRobotoBoldItalic">./assets/font/#Roboto-BoldItalic</FontFamily>
     
 </ResourceDictionary>
