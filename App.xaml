@@ -10,6 +10,7 @@
                 <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Controls.xaml" />
                 
                 <!-- App -->
+                <ResourceDictionary Source="assets/font/font.xaml"/>
                 <ResourceDictionary Source="assets/theme/LaM0uette/colors.xaml"/>
                 <ResourceDictionary Source="assets/variable/variables.xaml"/>
                 <ResourceDictionary Source="assets/img/img.xaml"/>

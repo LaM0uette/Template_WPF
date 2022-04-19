@@ -52,3 +52,4 @@ C:\Prog\C#\Template_WPF\obj\Debug\net6.0-windows\assets\theme\LaM0uette\font.bam
 C:\Prog\C#\Template_WPF\obj\Debug\net6.0-windows\assets\variable\variables.baml
 C:\Prog\C#\Template_WPF\obj\Debug\net6.0-windows\assets\img\img.baml
 C:\Prog\C#\Template_WPF\obj\Debug\net6.0-windows\assets\theme\LaM0uette\styles\titleBar.baml
+C:\Prog\C#\Template_WPF\obj\Debug\net6.0-windows\assets\font\font.baml

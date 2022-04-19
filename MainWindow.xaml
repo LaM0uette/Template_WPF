@@ -18,7 +18,7 @@
         Icon="{StaticResource ImgMain}"
         GlowBrush="{StaticResource RgbM1}"
         WindowTitleBrush="{StaticResource RgbM1}"
-        FontFamily="Roboto"
+        FontFamily="{DynamicResource FontRoboto}"
         >
 
     <!-- Header -->

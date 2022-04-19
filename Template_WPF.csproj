@@ -109,6 +109,10 @@
       <Resource Include="assets\img\ui\unlock.png">
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       </Resource>
+      <None Remove="assets\font\Roboto-Regular.ttf" />
+      <Resource Include="assets\font\Roboto-Regular.ttf">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Resource>
     </ItemGroup>
 
     <ItemGroup>
