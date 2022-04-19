@@ -75,7 +75,7 @@
     </mah:MetroWindow.WindowButtonCommands>
     
     <Grid>
-        <Button Height="50" Width="50" ></Button>
+
     </Grid>
     
 </mah:MetroWindow>
