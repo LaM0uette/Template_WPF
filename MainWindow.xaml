@@ -9,10 +9,12 @@
         Height="550" 
         Width="800" 
         ShowTitleBar="True"
-        GlowBrush="#FF242424"
         ResizeMode="CanResizeWithGrip"
         WindowTransitionsEnabled="False"
-        WindowStartupLocation="CenterScreen">
+        WindowStartupLocation="CenterScreen"
+        TitleAlignment="Center" 
+        Icon="assets/img/main/main.png"
+        GlowBrush="#FF242424">
     
     <mah:MetroWindow.Resources>
         <Style x:Key="CustomLightMinButtonStyle"
