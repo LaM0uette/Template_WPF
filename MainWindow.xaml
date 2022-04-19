@@ -5,16 +5,18 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:mah="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
         mc:Ignorable="d"
-        Title="Template_WPF" 
-        Height="550" 
-        Width="800" 
+        Title="Template_WPF"
+        Height="550" MinHeight="550"
+        Width="800" MinWidth="800"
         ShowTitleBar="True"
         ResizeMode="CanResizeWithGrip"
         WindowTransitionsEnabled="False"
         WindowStartupLocation="CenterScreen"
-        TitleAlignment="Center" 
+        TitleAlignment="Center"
         Icon="assets/img/main/main.png"
-        GlowBrush="#FF242424">
+        GlowBrush="#FF242424"
+        WindowTitleBrush="{StaticResource RgbM1}"
+        >
     
     <mah:MetroWindow.Resources>
         <Style x:Key="CustomLightMinButtonStyle"
@@ -73,6 +75,7 @@
     </mah:MetroWindow.WindowButtonCommands>
     
     <Grid>
+        <Button Height="50" Width="50" ></Button>
     </Grid>
     
 </mah:MetroWindow>

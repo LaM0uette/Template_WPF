@@ -12,8 +12,9 @@
       }
     ],
     "additionalProbingPaths": [
-      "C:\\Users\\doria\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\doria\\.nuget\\packages"
+      "C:\\Users\\XD5965\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\XD5965\\.nuget\\packages",
+      "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
     ],
     "configProperties": {
       "Microsoft.NETCore.DotNetHostPolicy.SetAppPaths": true

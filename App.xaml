@@ -11,8 +11,13 @@
                 <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Themes/Light.Steel.xaml" />
                 
                 <!-- App -->
-                
+                <ResourceDictionary Source="assets/themes/LaM0uette/colors.xaml"/>
             </ResourceDictionary.MergedDictionaries>
+            
+            <Style TargetType="Button">
+                <Setter Property="Background" Value="{DynamicResource RgbB1}"/>
+            </Style>
+            
             </ResourceDictionary>
     </Application.Resources>
     

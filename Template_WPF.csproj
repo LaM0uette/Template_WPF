@@ -21,8 +21,6 @@
       <Resource Include="assets\img\main\main.svg">
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       </Resource>
-      <Resource Include="main.png" />
-      <Resource Include="main.svg" />
       <None Remove="assets\img\ui\agrandir.png" />
       <Resource Include="assets\img\ui\agrandir.png">
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
