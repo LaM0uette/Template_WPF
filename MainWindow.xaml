@@ -46,15 +46,15 @@
         </Grid.RowDefinitions>
         
         <!-- Header -->
-        <StackPanel Grid.Row="0">
+        <StackPanel Grid.Row="0" Background="{StaticResource RgbM1}">
         </StackPanel>
         
         <!-- Body -->
-        <Grid Grid.Row="1">
+        <Grid Grid.Row="1" Background="{StaticResource RgbM1}">
         </Grid>
         
         <!-- Footer -->
-        <StackPanel Grid.Row="2">
+        <StackPanel Grid.Row="2" Background="{StaticResource RgbM2}">
         </StackPanel>
     </Grid>
     
