@@ -5,6 +5,4 @@
         <Setter Property="FontWeight" Value="Bold" />
     </Style>
 
-    
-    <!-- FontFamily="Roboto Condensed" FontWeight="Bold" FontSize="20" -->
 </ResourceDictionary>
