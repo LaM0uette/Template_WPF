@@ -3,9 +3,8 @@
     
     <!-- ReduceButton -->
     <Style x:Key="MinButtonStyle" TargetType="{x:Type Button}">
-        
         <Setter Property="Background" Value="{StaticResource RgbM1}"/>
-        
+        <Setter Property="Foreground" Value="{StaticResource RgbB1}"/>
         <Setter Property="Template">
             <Setter.Value>
                 <ControlTemplate TargetType="{x:Type Button}">
@@ -15,20 +14,19 @@
                 </ControlTemplate>
             </Setter.Value>
         </Setter>
-        
         <Style.Triggers>
             <Trigger Property="IsMouseOver" Value="True">
+                <Setter Property="Content" Value="{StaticResource ImgMain}"/>
                 <Setter Property="Background" Value="{StaticResource RgbB1}"/>
-                <Setter Property="Foreground" Value="{StaticResource RgbM3}"/>
+                <Setter Property="Foreground" Value="{StaticResource RgbM1}"/>
             </Trigger>
         </Style.Triggers>
     </Style>
     
     <!-- MinMaxButton -->
     <Style x:Key="MaxButtonStyle" TargetType="Button">
-        
         <Setter Property="Background" Value="{StaticResource RgbM1}"/>
-        
+        <Setter Property="Foreground" Value="{StaticResource RgbM2}"/>
         <Setter Property="Template">
             <Setter.Value>
                 <ControlTemplate TargetType="{x:Type Button}">
@@ -38,20 +36,18 @@
                 </ControlTemplate>
             </Setter.Value>
         </Setter>
-        
         <Style.Triggers>
             <Trigger Property="IsMouseOver" Value="True">
-                <Setter Property="Background" Value="{StaticResource RgbB1}"/>
-                <Setter Property="Foreground" Value="{StaticResource RgbM3}"/>
+                <Setter Property="Background" Value="{StaticResource RgbM2}"/>
+                <Setter Property="Foreground" Value="{StaticResource RgbM1}"/>
             </Trigger>
         </Style.Triggers>
     </Style>
     
     <!-- CloseButton -->
     <Style x:Key="CloseButtonStyle" TargetType="Button">
-        
         <Setter Property="Background" Value="{StaticResource RgbM1}"/>
-        
+        <Setter Property="Foreground" Value="{StaticResource RgbB2}"/>
         <Setter Property="Template">
             <Setter.Value>
                 <ControlTemplate TargetType="{x:Type Button}">
@@ -61,11 +57,10 @@
                 </ControlTemplate>
             </Setter.Value>
         </Setter>
-        
         <Style.Triggers>
             <Trigger Property="IsMouseOver" Value="True">
                 <Setter Property="Background" Value="{StaticResource RgbB2}"/>
-                <Setter Property="Foreground" Value="{StaticResource RgbM3}"/>
+                <Setter Property="Foreground" Value="{StaticResource RgbM1}"/>
             </Trigger>
         </Style.Triggers>
     </Style>
