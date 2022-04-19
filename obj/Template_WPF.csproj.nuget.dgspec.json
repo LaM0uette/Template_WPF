@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Prog\\C#\\Template_WPF\\Template_WPF.csproj": {}
+    "C:\\Prog\\C#\\Template_WPF\\Template_WPF.csproj": {}
   },
   "projects": {
-    "D:\\Prog\\C#\\Template_WPF\\Template_WPF.csproj": {
+    "C:\\Prog\\C#\\Template_WPF\\Template_WPF.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Prog\\C#\\Template_WPF\\Template_WPF.csproj",
+        "projectUniqueName": "C:\\Prog\\C#\\Template_WPF\\Template_WPF.csproj",
         "projectName": "Template_WPF",
-        "projectPath": "D:\\Prog\\C#\\Template_WPF\\Template_WPF.csproj",
-        "packagesPath": "C:\\Users\\doria\\.nuget\\packages\\",
-        "outputPath": "D:\\Prog\\C#\\Template_WPF\\obj\\",
+        "projectPath": "C:\\Prog\\C#\\Template_WPF\\Template_WPF.csproj",
+        "packagesPath": "C:\\Users\\XD5965\\.nuget\\packages\\",
+        "outputPath": "C:\\Prog\\C#\\Template_WPF\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\doria\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\XD5965\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -39,6 +43,12 @@
       "frameworks": {
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
+          "dependencies": {
+            "MahApps.Metro": {
+              "target": "Package",
+              "version": "[2.4.9, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
