@@ -39,7 +39,23 @@
     </mah:MetroWindow.WindowButtonCommands>
     
     <Grid>
-        <Button></Button>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="25"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="20"/>
+        </Grid.RowDefinitions>
+        
+        <!-- Header -->
+        <StackPanel Grid.Row="0">
+        </StackPanel>
+        
+        <!-- Body -->
+        <Grid Grid.Row="1">
+        </Grid>
+        
+        <!-- Footer -->
+        <StackPanel Grid.Row="2">
+        </StackPanel>
     </Grid>
     
 </mah:MetroWindow>
