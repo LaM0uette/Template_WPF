@@ -18,8 +18,11 @@
         Icon="{StaticResource ImgMain}"
         GlowBrush="{StaticResource RgbM1}"
         WindowTitleBrush="{StaticResource RgbM1}"
+        FontFamily="Roboto"
         >
 
+    <!-- Header -->
+    <!-- ButtonTitleBar -->
     <mah:MetroWindow.WindowButtonCommands>
         <mah:WindowButtonCommands 
             Minimize="Réduire"
