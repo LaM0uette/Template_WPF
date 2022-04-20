@@ -23,7 +23,6 @@ D:\Prog\C#\Template_WPF\obj\Debug\net6.0-windows\assets\themes\LaM0uette\font.ba
 D:\Prog\C#\Template_WPF\obj\Debug\net6.0-windows\refint\Template_WPF.dll
 C:\Prog\C#\Template_WPF\obj\Debug\net6.0-windows\Template_WPF.csproj.AssemblyReference.cache
 C:\Prog\C#\Template_WPF\obj\Debug\net6.0-windows\assets\font\font.baml
-C:\Prog\C#\Template_WPF\obj\Debug\net6.0-windows\assets\img\img.baml
 C:\Prog\C#\Template_WPF\obj\Debug\net6.0-windows\assets\img\main\main.baml
 C:\Prog\C#\Template_WPF\obj\Debug\net6.0-windows\assets\theme\LaM0uette\colors.baml
 C:\Prog\C#\Template_WPF\obj\Debug\net6.0-windows\assets\theme\LaM0uette\font.baml
@@ -54,3 +53,4 @@ C:\Prog\C#\Template_WPF\obj\Debug\net6.0-windows\refint\Template_WPF.dll
 C:\Prog\C#\Template_WPF\obj\Debug\net6.0-windows\Template_WPF.pdb
 C:\Prog\C#\Template_WPF\obj\Debug\net6.0-windows\Template_WPF.genruntimeconfig.cache
 C:\Prog\C#\Template_WPF\obj\Debug\net6.0-windows\ref\Template_WPF.dll
+C:\Prog\C#\Template_WPF\obj\Debug\net6.0-windows\assets\img\img.baml
