@@ -19,7 +19,6 @@
         GlowBrush="{StaticResource RgbM2}"
         WindowTitleBrush="{StaticResource RgbM1}"
         FontFamily="{DynamicResource FontRoboto}"
-        
         SnapsToDevicePixels="True"
         UseLayoutRounding="True"
         >
