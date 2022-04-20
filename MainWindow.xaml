@@ -57,7 +57,11 @@
         </Grid>
         
         <!-- Footer -->
-        <StackPanel Grid.Row="2" Background="{StaticResource RgbM2}">
+        <StackPanel Grid.Row="2" Orientation="Horizontal" Background="{StaticResource RgbM2}">
+            <Label Style="{StaticResource LabelFooter}" 
+                   Content="Version:"/>
+            <Label Style="{StaticResource LabelFooter}" 
+                   Content="{StaticResource AppVersion}" />
         </StackPanel>
     </Grid>
     

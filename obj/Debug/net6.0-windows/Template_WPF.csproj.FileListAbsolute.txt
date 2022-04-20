@@ -54,3 +54,4 @@ C:\Prog\C#\Template_WPF\obj\Debug\net6.0-windows\Template_WPF.pdb
 C:\Prog\C#\Template_WPF\obj\Debug\net6.0-windows\Template_WPF.genruntimeconfig.cache
 C:\Prog\C#\Template_WPF\obj\Debug\net6.0-windows\ref\Template_WPF.dll
 C:\Prog\C#\Template_WPF\obj\Debug\net6.0-windows\assets\img\img.baml
+C:\Prog\C#\Template_WPF\obj\Debug\net6.0-windows\config\config.baml
