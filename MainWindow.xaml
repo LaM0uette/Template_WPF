@@ -15,7 +15,7 @@
         WindowTransitionsEnabled="False"
         WindowStartupLocation="CenterScreen"
         TitleAlignment="Center"
-        Icon="{StaticResource Test}"
+        Icon="{StaticResource Main}"
         GlowBrush="{StaticResource RgbM2}"
         WindowTitleBrush="{StaticResource RgbM1}"
         FontFamily="{DynamicResource FontRoboto}"
