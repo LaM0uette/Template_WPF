@@ -15,10 +15,13 @@
         WindowTransitionsEnabled="False"
         WindowStartupLocation="CenterScreen"
         TitleAlignment="Center"
-        Icon="{StaticResource ImgMain}"
+        Icon="{StaticResource Test}"
         GlowBrush="{StaticResource RgbM2}"
         WindowTitleBrush="{StaticResource RgbM1}"
         FontFamily="{DynamicResource FontRoboto}"
+        
+        SnapsToDevicePixels="True"
+        UseLayoutRounding="True"
         >
 
     <!-- Header -->

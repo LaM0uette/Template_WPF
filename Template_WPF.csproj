@@ -8,6 +8,13 @@
     </PropertyGroup>
 
     <ItemGroup>
+      <Compile Remove="assets\img\ui\**" />
+      <EmbeddedResource Remove="assets\img\ui\**" />
+      <None Remove="assets\img\ui\**" />
+      <Page Remove="assets\img\ui\**" />
+    </ItemGroup>
+
+    <ItemGroup>
       <None Remove="assets\img\main\main.png" />
       <None Remove="assets\img\main\main.svg" />
       <None Remove="main.png" />
@@ -15,98 +22,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <Resource Include="assets\img\main\main.png">
-        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      </Resource>
       <Resource Include="assets\img\main\main.svg">
-        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      </Resource>
-      <None Remove="assets\img\ui\agrandir.png" />
-      <Resource Include="assets\img\ui\agrandir.png">
-        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      </Resource>
-      <None Remove="assets\img\ui\alerte.png" />
-      <Resource Include="assets\img\ui\alerte.png">
-        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      </Resource>
-      <None Remove="assets\img\ui\check0.png" />
-      <Resource Include="assets\img\ui\check0.png">
-        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      </Resource>
-      <None Remove="assets\img\ui\check0_rond.png" />
-      <Resource Include="assets\img\ui\check0_rond.png">
-        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      </Resource>
-      <None Remove="assets\img\ui\check1.png" />
-      <Resource Include="assets\img\ui\check1.png">
-        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      </Resource>
-      <None Remove="assets\img\ui\check1_rond.png" />
-      <Resource Include="assets\img\ui\check1_rond.png">
-        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      </Resource>
-      <None Remove="assets\img\ui\check2.png" />
-      <Resource Include="assets\img\ui\check2.png">
-        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      </Resource>
-      <None Remove="assets\img\ui\check2_rond.png" />
-      <Resource Include="assets\img\ui\check2_rond.png">
-        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      </Resource>
-      <None Remove="assets\img\ui\copier.png" />
-      <Resource Include="assets\img\ui\copier.png">
-        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      </Resource>
-      <None Remove="assets\img\ui\fleche_bottom.png" />
-      <Resource Include="assets\img\ui\fleche_bottom.png">
-        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      </Resource>
-      <None Remove="assets\img\ui\fleche_droite.png" />
-      <Resource Include="assets\img\ui\fleche_droite.png">
-        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      </Resource>
-      <None Remove="assets\img\ui\fleche_gauche.png" />
-      <Resource Include="assets\img\ui\fleche_gauche.png">
-        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      </Resource>
-      <None Remove="assets\img\ui\fleche_top.png" />
-      <Resource Include="assets\img\ui\fleche_top.png">
-        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      </Resource>
-      <None Remove="assets\img\ui\info.png" />
-      <Resource Include="assets\img\ui\info.png">
-        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      </Resource>
-      <None Remove="assets\img\ui\lock.png" />
-      <Resource Include="assets\img\ui\lock.png">
-        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      </Resource>
-      <None Remove="assets\img\ui\moins.png" />
-      <Resource Include="assets\img\ui\moins.png">
-        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      </Resource>
-      <None Remove="assets\img\ui\option.png" />
-      <Resource Include="assets\img\ui\option.png">
-        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      </Resource>
-      <None Remove="assets\img\ui\plus.png" />
-      <Resource Include="assets\img\ui\plus.png">
-        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      </Resource>
-      <None Remove="assets\img\ui\quitter.png" />
-      <Resource Include="assets\img\ui\quitter.png">
-        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      </Resource>
-      <None Remove="assets\img\ui\reduire.png" />
-      <Resource Include="assets\img\ui\reduire.png">
-        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      </Resource>
-      <None Remove="assets\img\ui\resize.png" />
-      <Resource Include="assets\img\ui\resize.png">
-        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      </Resource>
-      <None Remove="assets\img\ui\unlock.png" />
-      <Resource Include="assets\img\ui\unlock.png">
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       </Resource>
       <None Remove="assets\font\Roboto-Regular.ttf" />

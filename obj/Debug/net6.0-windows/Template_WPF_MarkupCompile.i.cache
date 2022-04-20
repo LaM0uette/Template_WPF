@@ -1,5 +1,5 @@
 ﻿Template_WPF
-
+1.0.0.0
 
 winexe
 C#
@@ -12,7 +12,7 @@ TRACE;DEBUG;NET;NET6_0;NETCOREAPP
 C:\Prog\C#\Template_WPF\App.xaml
 8-1008270400
 
-3-1233169557
+5341063457
 197-1361524210
 assets\font\font.xaml;assets\img\img.xaml;assets\img\main\main.xaml;assets\theme\LaM0uette\colors.xaml;assets\theme\LaM0uette\font.xaml;assets\theme\LaM0uette\styles\titleBar.xaml;assets\variable\variables.xaml;MainWindow.xaml;
 
