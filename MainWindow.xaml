@@ -61,7 +61,7 @@
             <Label Style="{StaticResource LabelFooter}" 
                    Content="Version:"/>
             <Label Style="{StaticResource LabelFooter}" 
-                   Content="{StaticResource AppVersion}" />
+                   Content="{StaticResource AppVersion}"/>
         </StackPanel>
     </Grid>
     
