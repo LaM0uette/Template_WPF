@@ -5,6 +5,46 @@
     <Style TargetType="{x:Type Button}">
         <Setter Property="Background" Value="{StaticResource RgbM2}"/>
         <Setter Property="Foreground" Value="{StaticResource RgbM3}"/>
+        <Setter Property="Height" Value="{StaticResource WgHeight}"></Setter>
+        <Setter Property="Cursor" Value="Hand"></Setter>
+        
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type Button}">
+                    <Border Background="{TemplateBinding Background}">
+                        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                    </Border>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+        <Style.Triggers>
+            <Trigger Property="IsMouseOver" Value="True">
+                <Trigger.EnterActions>
+                    <BeginStoryboard>
+                        <Storyboard>
+                            <ColorAnimation To="#FFFFFAFF" 
+                                            Storyboard.TargetProperty="(Button.Background).(SolidColorBrush.Color)" 
+                                            FillBehavior="HoldEnd"
+                                            Duration="0:0:0.2"/>
+                        </Storyboard>
+                    </BeginStoryboard>
+                </Trigger.EnterActions>
+                <Trigger.ExitActions>
+                    <BeginStoryboard>
+                        <Storyboard>
+                            <ColorAnimation To="#FF8F8FA3" 
+                                            Storyboard.TargetProperty="(Button.Background).(SolidColorBrush.Color)" 
+                                            FillBehavior="HoldEnd" 
+                                            Duration="0:0:0.2"/>
+                        </Storyboard>
+                    </BeginStoryboard>
+                </Trigger.ExitActions>
+            </Trigger>
+            
+            <Trigger Property="IsPressed" Value="True">
+                <Setter Property="Foreground" Value="{StaticResource RgbB1}"/>
+            </Trigger>
+        </Style.Triggers>
     </Style>
 
 </ResourceDictionary>

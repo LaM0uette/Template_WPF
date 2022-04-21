@@ -70,6 +70,7 @@
                                 <Separator Style="{StaticResource Spacer}"/>
                                 
                                 <Button Width="200" Content="Test"></Button>
+                                <Separator Style="{StaticResource Spacer}"/>
                             </StackPanel>
                         </Border>
                 
