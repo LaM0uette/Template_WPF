@@ -3,13 +3,23 @@
     
     <!-- Separator -->
     <Style x:Key="SepDemo" TargetType="{x:Type Separator}">
-        
         <Setter Property="VerticalAlignment" Value="Top"></Setter>
         <Setter Property="Background" Value="{StaticResource RgbB1}"></Setter>
         <Setter Property="Width" Value="400"></Setter>
     </Style>
     
     <!-- Label -->
+    <Style x:Key="LabelDemo" TargetType="{x:Type Label}">
+        <Setter Property="Foreground" Value="{StaticResource RgbB1}"></Setter>
+        <Setter Property="HorizontalContentAlignment" Value="Center"></Setter>
+        <Setter Property="FontSize" Value="25"></Setter>
+        <Setter Property="FontWeight" Value="Bold"></Setter>
+        <Setter Property="BorderThickness" Value="0 0 0 1"></Setter>
+        <Setter Property="BorderBrush" Value="{StaticResource RgbB1}"></Setter>
+        <Setter Property="Width" Value="400"></Setter>
+    </Style>
+    
+    <!-- Border -->
     <Style x:Key="BorderDemo" TargetType="{x:Type Border}">
         <Setter Property="Margin" Value="5 0 5 5"></Setter>
         <Setter Property="BorderThickness" Value="1"></Setter>

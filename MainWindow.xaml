@@ -62,8 +62,7 @@
                         <!-- Button -->
                         <Border Style="{StaticResource BorderDemo}">
                             <StackPanel Orientation="Vertical">
-                                
-                                <Separator Style="{StaticResource SepDemo}"/>
+                                <Label Style="{StaticResource LabelDemo}">Button</Label>
                                 
                                 <Button Background="Aqua" Width="200"></Button>
                                 <Button Background="Aqua" Width="200"></Button>
