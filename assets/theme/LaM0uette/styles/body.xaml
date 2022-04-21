@@ -21,7 +21,7 @@
     
     <!-- Border -->
     <Style x:Key="BorderDemo" TargetType="{x:Type Border}">
-        <Setter Property="Margin" Value="5 0 5 5"></Setter>
+        <Setter Property="Margin" Value="0 0 0 5"></Setter>
         <Setter Property="BorderThickness" Value="1"></Setter>
         <Setter Property="BorderBrush" Value="{StaticResource RgbB1}"></Setter>
     </Style>

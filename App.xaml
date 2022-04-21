@@ -20,6 +20,8 @@
                 <ResourceDictionary Source="assets/theme/LaM0uette/styles/body.xaml"/>
                 <ResourceDictionary Source="assets/theme/LaM0uette/styles/footer.xaml"/>
                 
+                <ResourceDictionary Source="assets/theme/LaM0uette/widgets.xaml"/>
+                
                 <!-- Img -->
                 <ResourceDictionary Source="assets/img/img.xaml"/>
             </ResourceDictionary.MergedDictionaries>

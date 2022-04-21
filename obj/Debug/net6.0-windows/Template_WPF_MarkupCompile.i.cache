@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
 C:\Prog\C#\Template_WPF\App.xaml
-11-1385654933
+13-504957075
 
 5341063457
 197-1361524210
-assets\font\font.xaml;assets\img\img.xaml;assets\img\main\main.xaml;assets\theme\LaM0uette\colors.xaml;assets\theme\LaM0uette\font.xaml;assets\theme\LaM0uette\styles\body.xaml;assets\theme\LaM0uette\styles\footer.xaml;assets\theme\LaM0uette\styles\titleBar.xaml;assets\variable\variables.xaml;config\config.xaml;MainWindow.xaml;
+assets\font\font.xaml;assets\img\img.xaml;assets\img\main\main.xaml;assets\theme\LaM0uette\colors.xaml;assets\theme\LaM0uette\font.xaml;assets\theme\LaM0uette\styles\body.xaml;assets\theme\LaM0uette\styles\button.xaml;assets\theme\LaM0uette\styles\footer.xaml;assets\theme\LaM0uette\styles\titleBar.xaml;assets\theme\LaM0uette\widgets.xaml;assets\variable\variables.xaml;config\config.xaml;MainWindow.xaml;
 
 False
 
