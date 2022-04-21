@@ -15,7 +15,7 @@
         WindowTransitionsEnabled="False"
         WindowStartupLocation="CenterScreen"
         TitleAlignment="Center"
-        Icon="{StaticResource Main}" 
+        Icon="{StaticResource Main}"
         IconBitmapScalingMode="HighQuality"
         GlowBrush="{StaticResource RgbM2}"
         WindowTitleBrush="{StaticResource RgbM1}"
