@@ -50,21 +50,31 @@
         <Grid Grid.Row="0" Background="{StaticResource RgbM1}">
             <Grid>
                 <Grid.RowDefinitions>
-                    <RowDefinition/>
+                    <RowDefinition Height="8"/>
                     <RowDefinition/>
                 </Grid.RowDefinitions>
                 
-                <Border Grid.Row="0" Style="{StaticResource BorderDemo}">
-                    <Grid>
-                    
-                    </Grid>
-                </Border>
+                <Separator Grid.Row="0" VerticalAlignment="Top" Background="{StaticResource RgbM2}" />
                 
-                <Border Grid.Row="1" Style="{StaticResource BorderDemo}">
-                    <Grid>
+                <ScrollViewer Grid.Row="1">
+                    <StackPanel>
+                        <!-- Button -->
+                        <Border Style="{StaticResource BorderDemo}">
+                            <StackPanel Orientation="Vertical">
+                                <Button Background="Aqua" Width="200"></Button>
+                                <Button Background="Aqua" Width="200"></Button>
+                                <Button Background="Aqua" Width="200"></Button>
+                            </StackPanel>
+                        </Border>
+                
+                        <!-- Other -->
+                        <Border Style="{StaticResource BorderDemo}">
+                            <Grid>
                     
-                    </Grid>
-                </Border>
+                            </Grid>
+                        </Border>
+                    </StackPanel>
+                </ScrollViewer>
             </Grid>
             
         </Grid>
