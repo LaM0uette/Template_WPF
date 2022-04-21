@@ -61,11 +61,14 @@
                         <Border Style="{StaticResource BorderDemo}">
                             <StackPanel Orientation="Vertical">
                                 <Label Style="{StaticResource LabelDemo}">Button</Label>
-                                
-                                
+                                <Separator Style="{StaticResource Spacer}"/>
                                 
                                 <Button Width="200" Content="Test"></Button>
+                                <Separator Style="{StaticResource Spacer}"/>
+                                
                                 <Button Width="200" Content="Test"></Button>
+                                <Separator Style="{StaticResource Spacer}"/>
+                                
                                 <Button Width="200" Content="Test"></Button>
                             </StackPanel>
                         </Border>
