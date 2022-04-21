@@ -63,7 +63,7 @@
                                 <Label Style="{StaticResource LabelDemo}">Button</Label>
                                 <Separator Style="{StaticResource Spacer}"/>
                                 
-                                <Button Width="200" Content="Test"></Button>
+                                <Button Width="200" Content="Base"></Button>
                                 <Separator Style="{StaticResource Spacer}"/>
                                 
                                 <Button Width="200" Content="Test"></Button>
