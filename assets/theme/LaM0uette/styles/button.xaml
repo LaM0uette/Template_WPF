@@ -17,13 +17,33 @@
                 </ControlTemplate>
             </Setter.Value>
         </Setter>
+        
         <Style.Triggers>
+            <Trigger Property="IsMouseOver" Value="True">
+                <Setter Property="Background" Value="{StaticResource RgbM3}"/>
+                <Setter Property="Foreground" Value="{StaticResource RgbM2}"/>
+            </Trigger>
+            
+            <Trigger Property="IsPressed" Value="True">
+                <Setter Property="Foreground" Value="{StaticResource RgbB1}"/>
+            </Trigger>
+        </Style.Triggers>
+    </Style>
+
+</ResourceDictionary>
+
+<!--
+<Style.Triggers>
             <Trigger Property="IsMouseOver" Value="True">
                 <Trigger.EnterActions>
                     <BeginStoryboard>
                         <Storyboard>
-                            <ColorAnimation To="#FFFFFAFF" 
+                            <ColorAnimation To="{StaticResource M3}" 
                                             Storyboard.TargetProperty="(Button.Background).(SolidColorBrush.Color)" 
+                                            FillBehavior="HoldEnd"
+                                            Duration="0:0:0.2"/>
+                            <ColorAnimation To="{StaticResource M2}" 
+                                            Storyboard.TargetProperty="(Button.Foreground).(SolidColorBrush.Color)" 
                                             FillBehavior="HoldEnd"
                                             Duration="0:0:0.2"/>
                         </Storyboard>
@@ -32,9 +52,13 @@
                 <Trigger.ExitActions>
                     <BeginStoryboard>
                         <Storyboard>
-                            <ColorAnimation To="#FF8F8FA3" 
+                            <ColorAnimation To="{StaticResource M2}" 
                                             Storyboard.TargetProperty="(Button.Background).(SolidColorBrush.Color)" 
                                             FillBehavior="HoldEnd" 
+                                            Duration="0:0:0.2"/>
+                            <ColorAnimation To="{StaticResource M3}" 
+                                            Storyboard.TargetProperty="(Button.Foreground).(SolidColorBrush.Color)" 
+                                            FillBehavior="HoldEnd"
                                             Duration="0:0:0.2"/>
                         </Storyboard>
                     </BeginStoryboard>
@@ -45,6 +69,4 @@
                 <Setter Property="Foreground" Value="{StaticResource RgbB1}"/>
             </Trigger>
         </Style.Triggers>
-    </Style>
-
-</ResourceDictionary>
+-->
