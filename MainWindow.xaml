@@ -64,6 +64,8 @@
                             <StackPanel Orientation="Vertical">
                                 <Label Style="{StaticResource LabelDemo}">Button</Label>
                                 
+                                
+                                
                                 <Button Background="Aqua" Width="200"></Button>
                                 <Button Background="Aqua" Width="200"></Button>
                                 <Button Background="Aqua" Width="200"></Button>
