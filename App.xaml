@@ -17,6 +17,7 @@
                 
                 <!-- Style -->
                 <ResourceDictionary Source="assets/theme/LaM0uette/styles/titleBar.xaml"/>
+                <ResourceDictionary Source="assets/theme/LaM0uette/styles/body.xaml"/>
                 <ResourceDictionary Source="assets/theme/LaM0uette/styles/footer.xaml"/>
                 
                 <!-- Img -->

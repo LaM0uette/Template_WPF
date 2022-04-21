@@ -56,3 +56,4 @@ C:\Prog\C#\Template_WPF\obj\Debug\net6.0-windows\ref\Template_WPF.dll
 C:\Prog\C#\Template_WPF\obj\Debug\net6.0-windows\assets\img\img.baml
 C:\Prog\C#\Template_WPF\obj\Debug\net6.0-windows\config\config.baml
 C:\Prog\C#\Template_WPF\obj\Debug\net6.0-windows\assets\theme\LaM0uette\styles\footer.baml
+C:\Prog\C#\Template_WPF\obj\Debug\net6.0-windows\assets\theme\LaM0uette\styles\body.baml
