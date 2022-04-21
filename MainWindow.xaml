@@ -58,9 +58,13 @@
                 
                 <ScrollViewer Grid.Row="1">
                     <StackPanel>
+                        
                         <!-- Button -->
                         <Border Style="{StaticResource BorderDemo}">
                             <StackPanel Orientation="Vertical">
+                                
+                                <Separator Style="{StaticResource SepDemo}"/>
+                                
                                 <Button Background="Aqua" Width="200"></Button>
                                 <Button Background="Aqua" Width="200"></Button>
                                 <Button Background="Aqua" Width="200"></Button>
