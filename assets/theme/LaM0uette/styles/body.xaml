@@ -12,7 +12,7 @@
     <Style x:Key="LabelDemo" TargetType="{x:Type Label}">
         <Setter Property="Foreground" Value="{StaticResource RgbB1}"></Setter>
         <Setter Property="HorizontalContentAlignment" Value="Center"></Setter>
-        <Setter Property="FontFamily" Value="{StaticResource Ft}"/>
+        <Setter Property="FontFamily" Value="{StaticResource FontRobotoBoldItalic}"/>
         <Setter Property="FontSize" Value="25"></Setter>
         <Setter Property="FontWeight" Value="Bold"></Setter>
         <Setter Property="BorderThickness" Value="0 0 0 1"></Setter>

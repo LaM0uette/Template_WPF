@@ -11,8 +11,6 @@
                 <Setter Property="FontSize"
                         Value="16" />
             </Style>
-            
-            <FontFamily x:Key="Ft">/Fonts/#Roboto-BlackItalic</FontFamily>
             <ResourceDictionary.MergedDictionaries>
                 <!-- MetroWindow -->
                 <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Controls.xaml" />
