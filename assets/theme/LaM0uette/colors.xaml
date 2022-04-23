@@ -4,13 +4,13 @@
     <Color x:Key="M1">#FF3A3A41</Color>
     <Color x:Key="M2">#FF8F8FA3</Color>
     <Color x:Key="M3">#FFFFFAFF</Color>
-    <Color x:Key="B1">#FF3EBBCC</Color>
-    <Color x:Key="B2">#FFF02D3A</Color>
+    <Color x:Key="B1">#FF44AAB8</Color>
+    <Color x:Key="B2">#FFE53843</Color>
     
     <SolidColorBrush x:Key="RgbM1" Color="#FF3A3A41"/>
     <SolidColorBrush x:Key="RgbM2" Color="#FF8F8FA3"/>
     <SolidColorBrush x:Key="RgbM3" Color="#FFFFFAFF"/>
-    <SolidColorBrush x:Key="RgbB1" Color="#FF3EBBCC"/>
-    <SolidColorBrush x:Key="RgbB2" Color="#FFF02D3A"/>
+    <SolidColorBrush x:Key="RgbB1" Color="#FF44AAB8"/>
+    <SolidColorBrush x:Key="RgbB2" Color="#FFE53843"/>
 
 </ResourceDictionary>
