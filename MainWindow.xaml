@@ -5,6 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:mah="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
         mc:Ignorable="d"
+        Style="{StaticResource WinAll}"
         Title="Template_WPF"
         Width="{Binding Source={StaticResource AppWidth}}" 
         MinWidth="{Binding Source={StaticResource AppWidth}}"

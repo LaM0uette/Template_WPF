@@ -5,6 +5,14 @@
     
     <Application.Resources>
         <ResourceDictionary>
+            <Style x:Key="WinAll" TargetType="{x:Type Window}">
+                <Setter Property="FontFamily"
+                        Value="Courier New"/>
+                <Setter Property="FontSize"
+                        Value="16" />
+            </Style>
+            
+            <FontFamily x:Key="Ft">/Fonts/#Roboto-BlackItalic</FontFamily>
             <ResourceDictionary.MergedDictionaries>
                 <!-- MetroWindow -->
                 <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Controls.xaml" />
@@ -12,7 +20,7 @@
                 <!-- App -->
                 <ResourceDictionary Source="assets/theme/LaM0uette/colors.xaml"/>
                 <ResourceDictionary Source="assets/theme/LaM0uette/rsc.xaml"/>
-                <ResourceDictionary Source="assets/font/font.xaml"/>
+                <ResourceDictionary Source="Fonts/Fonts.xaml"/>
                 <ResourceDictionary Source="assets/variable/variables.xaml"/>
                 <ResourceDictionary Source="config/config.xaml"/>
                 

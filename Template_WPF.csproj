@@ -26,9 +26,7 @@
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       </Resource>
       <None Remove="assets\font\Roboto-Regular.ttf" />
-      <Resource Include="assets\font\Roboto-Regular.ttf">
-        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      </Resource>
+      <Resource Include="Fonts\Roboto-Regular.ttf" />
     </ItemGroup>
 
     <ItemGroup>
