@@ -2,8 +2,8 @@
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
     
     <!-- Button -->
-    <!-- Default -->
-    <Style TargetType="{x:Type Button}">
+    <!-- Base -->
+    <Style x:Key="ButtonBase" TargetType="{x:Type Button}">
         <Setter Property="Background" Value="{StaticResource RgbM2}"/>
         <Setter Property="Foreground" Value="{StaticResource RgbM3}"/>
         <Setter Property="Height" Value="{StaticResource WgHeight}"/>
@@ -30,8 +30,13 @@
             </Trigger>
         </Style.Triggers>
     </Style>
+    
+    <!-- Default -->
+    <Style TargetType="{x:Type Button}" BasedOn="{StaticResource ButtonBase}">
+        
+    </Style>
     <!-- Default round -->
-    <Style x:Key="ButtonBaseRound" BasedOn="{StaticResource {x:Type Button}}" TargetType="{x:Type Button}">
+    <Style x:Key="ButtonBaseRound" BasedOn="{StaticResource ButtonBase}" TargetType="{x:Type Button}">
         <Style.Resources>
             <Style TargetType="Border">
                 <Setter Property="CornerRadius" Value="{StaticResource RscRound}"></Setter>
@@ -40,7 +45,7 @@
     </Style>
     
     <!-- Texts -->
-    <Style x:Key="ButtonTxt" BasedOn="{StaticResource {x:Type Button}}" TargetType="{x:Type Button}">
+    <Style x:Key="ButtonTxt" TargetType="{x:Type Button}" BasedOn="{StaticResource ButtonBase}">
         <Setter Property="Background" Value="{StaticResource RgbM1}"/>
         <Setter Property="Foreground" Value="{StaticResource RgbM2}"/>
         
@@ -68,7 +73,7 @@
         </Style.Triggers>
     </Style>
     <!-- Texts round -->
-    <Style x:Key="ButtonTxtRound" BasedOn="{StaticResource ButtonTxt}" TargetType="{x:Type Button}">
+    <Style x:Key="ButtonTxtRound" BasedOn="{StaticResource ButtonBase}" TargetType="{x:Type Button}">
         <Style.Resources>
             <Style TargetType="Border">
                 <Setter Property="CornerRadius" Value="{StaticResource RscRound}"></Setter>
@@ -77,7 +82,7 @@
     </Style>
     
     <!-- Texts Inv -->
-    <Style x:Key="ButtonTxtInv" BasedOn="{StaticResource {x:Type Button}}" TargetType="{x:Type Button}">
+    <Style x:Key="ButtonTxtInv" TargetType="{x:Type Button}" BasedOn="{StaticResource ButtonBase}">
         <Setter Property="Foreground" Value="{StaticResource RgbM1}"/>
         
         <Setter Property="Effect">
