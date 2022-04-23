@@ -42,7 +42,7 @@
         
     </Style>
     <!-- Default round -->
-    <Style x:Key="ButtonBaseRound" BasedOn="{StaticResource ButtonBase}" TargetType="{x:Type Button}">
+    <Style x:Key="ButtonBaseRound" TargetType="{x:Type Button}" BasedOn="{StaticResource ButtonBase}">
         <Style.Resources>
             <Style TargetType="Border">
                 <Setter Property="CornerRadius" Value="{StaticResource RscRound}"></Setter>
@@ -79,7 +79,7 @@
         </Style.Triggers>
     </Style>
     <!-- Texts round -->
-    <Style x:Key="ButtonTxtRound" BasedOn="{StaticResource ButtonTxt}" TargetType="{x:Type Button}">
+    <Style x:Key="ButtonTxtRound" TargetType="{x:Type Button}" BasedOn="{StaticResource ButtonTxt}">
         <Style.Resources>
             <Style TargetType="Border">
                 <Setter Property="CornerRadius" Value="{StaticResource RscRound}"></Setter>
@@ -121,7 +121,79 @@
         </Style.Triggers>
     </Style>
     <!-- Texts Inv round -->
-    <Style x:Key="ButtonTxtInvRound" BasedOn="{StaticResource ButtonTxtInv}" TargetType="{x:Type Button}">
+    <Style x:Key="ButtonTxtInvRound" TargetType="{x:Type Button}" BasedOn="{StaticResource ButtonTxtInv}">
+        <Style.Resources>
+            <Style TargetType="Border">
+                <Setter Property="CornerRadius" Value="{StaticResource RscRound}"></Setter>
+            </Style>
+        </Style.Resources>
+    </Style>
+    
+    <!-- Dlg OK -->
+    <Style x:Key="ButtonDlgOk" TargetType="{x:Type Button}" BasedOn="{StaticResource ButtonTxt}">
+        <Setter Property="Foreground" Value="{StaticResource RgbOk1}"/>
+        
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type Button}">
+                    <Border Background="{TemplateBinding Background}"
+                            BorderThickness="1"
+                            BorderBrush="{StaticResource RgbOk1}">
+                        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                    </Border>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+        
+        <Style.Triggers>
+            <Trigger Property="IsMouseOver" Value="True">
+                <Setter Property="Background" Value="{StaticResource RgbOk1}"/>
+                <Setter Property="Foreground" Value="{StaticResource RgbM1}"/>
+            </Trigger>
+            
+            <Trigger Property="IsPressed" Value="True">
+                <Setter Property="Foreground" Value="{StaticResource RgbB1}"/>
+            </Trigger>
+        </Style.Triggers>
+    </Style>
+    <!-- Dlg OK round -->
+    <Style x:Key="ButtonDlgOkRound" TargetType="{x:Type Button}" BasedOn="{StaticResource ButtonDlgOk}">
+        <Style.Resources>
+            <Style TargetType="Border">
+                <Setter Property="CornerRadius" Value="{StaticResource RscRound}"></Setter>
+            </Style>
+        </Style.Resources>
+    </Style>
+    
+    <!-- Dlg OK Bis -->
+    <Style x:Key="ButtonDlgOkBis" TargetType="{x:Type Button}" BasedOn="{StaticResource ButtonTxt}">
+        <Setter Property="Foreground" Value="{StaticResource RgbOk2}"/>
+        
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type Button}">
+                    <Border Background="{TemplateBinding Background}"
+                            BorderThickness="1"
+                            BorderBrush="{StaticResource RgbOk2}">
+                        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                    </Border>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+        
+        <Style.Triggers>
+            <Trigger Property="IsMouseOver" Value="True">
+                <Setter Property="Background" Value="{StaticResource RgbOk2}"/>
+                <Setter Property="Foreground" Value="{StaticResource RgbM1}"/>
+            </Trigger>
+            
+            <Trigger Property="IsPressed" Value="True">
+                <Setter Property="Foreground" Value="{StaticResource RgbB1}"/>
+            </Trigger>
+        </Style.Triggers>
+    </Style>
+    <!-- Dlg OK round -->
+    <Style x:Key="ButtonDlgOkBisRound" TargetType="{x:Type Button}" BasedOn="{StaticResource ButtonDlgOkBis}">
         <Style.Resources>
             <Style TargetType="Border">
                 <Setter Property="CornerRadius" Value="{StaticResource RscRound}"></Setter>
