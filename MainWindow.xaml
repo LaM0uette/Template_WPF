@@ -66,14 +66,14 @@
                                 <StackPanel Style="{StaticResource StkPanDemo}">
                                     <Button Width="200" Content="Base"/>
                                     <Separator Style="{StaticResource Spacer}"/>
-                                    <Button Style="{StaticResource BaseRound}" Width="200" Content="Base Rounded"/>
+                                    <Button Style="{StaticResource ButtonBaseRound}" Width="200" Content="Base Rounded"/>
                                 </StackPanel>
                                 
                                 <!-- Texts -->
                                 <StackPanel Style="{StaticResource StkPanDemo}">
-                                    <Button Width="200" Content="Base"/>
+                                    <Button Style="{StaticResource ButtonTxt}" Width="200" Content="Text"/>
                                     <Separator Style="{StaticResource Spacer}"/>
-                                    <Button Style="{StaticResource BaseRound}" Width="200" Content="Base Rounded"/>
+                                    <Button Style="{StaticResource ButtonTxtRound}" Width="200" Content="Text Rounded"/>
                                 </StackPanel>
                             </StackPanel>
                         </Border>
