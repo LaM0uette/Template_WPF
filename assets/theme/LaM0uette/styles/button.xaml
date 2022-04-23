@@ -40,11 +40,9 @@
     </Style>
     
     <!-- Texts -->
-    <Style x:Key="ButtonTxt" TargetType="{x:Type Button}">
+    <Style x:Key="ButtonTxt" BasedOn="{StaticResource {x:Type Button}}" TargetType="{x:Type Button}">
         <Setter Property="Background" Value="{StaticResource RgbM1}"/>
         <Setter Property="Foreground" Value="{StaticResource RgbM2}"/>
-        <Setter Property="Height" Value="{StaticResource WgHeight}"/>
-        <Setter Property="Cursor" Value="Hand"/>
         
         <Setter Property="Template">
             <Setter.Value>
@@ -71,6 +69,48 @@
     </Style>
     <!-- Texts round -->
     <Style x:Key="ButtonTxtRound" BasedOn="{StaticResource ButtonTxt}" TargetType="{x:Type Button}">
+        <Style.Resources>
+            <Style TargetType="Border">
+                <Setter Property="CornerRadius" Value="{StaticResource RscRound}"></Setter>
+            </Style>
+        </Style.Resources>
+    </Style>
+    
+    <!-- Texts Inv -->
+    <Style x:Key="ButtonTxtInv" BasedOn="{StaticResource {x:Type Button}}" TargetType="{x:Type Button}">
+        <Setter Property="Foreground" Value="{StaticResource RgbM1}"/>
+        
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type Button}">
+                    <Border x:Name="ButtonTxtInvBorder" 
+                            Background="{TemplateBinding Background}"
+                            BorderThickness="1"
+                            BorderBrush="{StaticResource RgbM1}">
+                        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                    </Border>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter Property="BorderBrush" TargetName="ButtonTxtInvBorder" Value="{StaticResource RgbM2}"/>
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+        
+        <Style.Triggers>
+            <Trigger Property="IsMouseOver" Value="True">
+                <Setter Property="Background" Value="{StaticResource RgbM1}"/>
+                <Setter Property="Foreground" Value="{StaticResource RgbM2}"/>
+            </Trigger>
+            
+            <Trigger Property="IsPressed" Value="True">
+                <Setter Property="Foreground" Value="{StaticResource RgbB1}"/>
+            </Trigger>
+        </Style.Triggers>
+    </Style>
+    <!-- Texts Inv round -->
+    <Style x:Key="ButtonTxtInvRound" BasedOn="{StaticResource ButtonTxtInv}" TargetType="{x:Type Button}">
         <Style.Resources>
             <Style TargetType="Border">
                 <Setter Property="CornerRadius" Value="{StaticResource RscRound}"></Setter>

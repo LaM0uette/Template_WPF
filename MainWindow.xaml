@@ -64,16 +64,20 @@
                                 
                                 <!-- Base -->
                                 <StackPanel Style="{StaticResource StkPanDemo}">
-                                    <Button Width="200" Content="Base"/>
+                                    <Button Width="150" Content="Base"/>
                                     <Separator Style="{StaticResource Spacer}"/>
-                                    <Button Style="{StaticResource ButtonBaseRound}" Width="200" Content="Base Rounded"/>
+                                    <Button Style="{StaticResource ButtonBaseRound}" Width="150" Content="Base Rounded"/>
                                 </StackPanel>
                                 
                                 <!-- Texts -->
                                 <StackPanel Style="{StaticResource StkPanDemo}">
-                                    <Button Style="{StaticResource ButtonTxt}" Width="200" Content="Text"/>
+                                    <Button Style="{StaticResource ButtonTxt}" Width="150" Content="Text"/>
                                     <Separator Style="{StaticResource Spacer}"/>
-                                    <Button Style="{StaticResource ButtonTxtRound}" Width="200" Content="Text Rounded"/>
+                                    <Button Style="{StaticResource ButtonTxtRound}" Width="150" Content="Text Rounded"/>
+                                    <Separator Style="{StaticResource Spacer}"/>
+                                    <Button Style="{StaticResource ButtonTxtInv}" Width="150" Content="Text Inv Rounded"/>
+                                    <Separator Style="{StaticResource Spacer}"/>
+                                    <Button Style="{StaticResource ButtonTxtInvRound}" Width="150" Content="Text Inv Rounded"/>
                                 </StackPanel>
                             </StackPanel>
                         </Border>
