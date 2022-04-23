@@ -2,7 +2,7 @@
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
     
     <!-- Button -->
-        <!-- Default -->
+    <!-- Default -->
     <Style TargetType="{x:Type Button}">
         <Setter Property="Background" Value="{StaticResource RgbM2}"/>
         <Setter Property="Foreground" Value="{StaticResource RgbM3}"/>
@@ -30,8 +30,7 @@
             </Trigger>
         </Style.Triggers>
     </Style>
-    
-        <!-- Default round -->
+    <!-- Default round -->
     <Style x:Key="BaseRound" BasedOn="{StaticResource {x:Type Button}}" TargetType="{x:Type Button}">
         <Style.Resources>
             <Style TargetType="Border">
@@ -39,6 +38,8 @@
             </Style>
         </Style.Resources>
     </Style>
+    
+    
 
 </ResourceDictionary>
 
