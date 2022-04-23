@@ -4,7 +4,6 @@ D:\Prog\C#\Template_WPF\bin\Debug\net6.0-windows\Template_WPF.runtimeconfig.json
 D:\Prog\C#\Template_WPF\bin\Debug\net6.0-windows\Template_WPF.dll
 D:\Prog\C#\Template_WPF\bin\Debug\net6.0-windows\Template_WPF.pdb
 D:\Prog\C#\Template_WPF\obj\Debug\net6.0-windows\Template_WPF.csproj.AssemblyReference.cache
-D:\Prog\C#\Template_WPF\obj\Debug\net6.0-windows\assets\themes\LaM0uette\colors.baml
 D:\Prog\C#\Template_WPF\obj\Debug\net6.0-windows\MainWindow.baml
 D:\Prog\C#\Template_WPF\obj\Debug\net6.0-windows\MainWindow.g.cs
 D:\Prog\C#\Template_WPF\obj\Debug\net6.0-windows\App.g.cs
@@ -19,7 +18,6 @@ D:\Prog\C#\Template_WPF\obj\Debug\net6.0-windows\Template_WPF.pdb
 D:\Prog\C#\Template_WPF\obj\Debug\net6.0-windows\Template_WPF.genruntimeconfig.cache
 D:\Prog\C#\Template_WPF\obj\Debug\net6.0-windows\ref\Template_WPF.dll
 D:\Prog\C#\Template_WPF\obj\Debug\net6.0-windows\App.baml
-D:\Prog\C#\Template_WPF\obj\Debug\net6.0-windows\assets\themes\LaM0uette\font.baml
 D:\Prog\C#\Template_WPF\obj\Debug\net6.0-windows\refint\Template_WPF.dll
 C:\Prog\C#\Template_WPF\obj\Debug\net6.0-windows\Template_WPF.csproj.AssemblyReference.cache
 C:\Prog\C#\Template_WPF\obj\Debug\net6.0-windows\assets\font\font.baml
@@ -59,3 +57,20 @@ C:\Prog\C#\Template_WPF\obj\Debug\net6.0-windows\assets\theme\LaM0uette\styles\f
 C:\Prog\C#\Template_WPF\obj\Debug\net6.0-windows\assets\theme\LaM0uette\styles\body.baml
 C:\Prog\C#\Template_WPF\obj\Debug\net6.0-windows\assets\theme\LaM0uette\styles\button.baml
 C:\Prog\C#\Template_WPF\obj\Debug\net6.0-windows\assets\theme\LaM0uette\widgets.baml
+D:\Prog\C#\Template_WPF\bin\Debug\net6.0-windows\ControlzEx.dll
+D:\Prog\C#\Template_WPF\bin\Debug\net6.0-windows\MahApps.Metro.dll
+D:\Prog\C#\Template_WPF\bin\Debug\net6.0-windows\Microsoft.Xaml.Behaviors.dll
+D:\Prog\C#\Template_WPF\bin\Debug\net6.0-windows\de\MahApps.Metro.resources.dll
+D:\Prog\C#\Template_WPF\obj\Debug\net6.0-windows\assets\font\font.baml
+D:\Prog\C#\Template_WPF\obj\Debug\net6.0-windows\assets\img\img.baml
+D:\Prog\C#\Template_WPF\obj\Debug\net6.0-windows\assets\img\main\main.baml
+D:\Prog\C#\Template_WPF\obj\Debug\net6.0-windows\assets\theme\LaM0uette\colors.baml
+D:\Prog\C#\Template_WPF\obj\Debug\net6.0-windows\assets\theme\LaM0uette\styles\body.baml
+D:\Prog\C#\Template_WPF\obj\Debug\net6.0-windows\assets\theme\LaM0uette\styles\button.baml
+D:\Prog\C#\Template_WPF\obj\Debug\net6.0-windows\assets\theme\LaM0uette\styles\footer.baml
+D:\Prog\C#\Template_WPF\obj\Debug\net6.0-windows\assets\theme\LaM0uette\styles\titleBar.baml
+D:\Prog\C#\Template_WPF\obj\Debug\net6.0-windows\assets\theme\LaM0uette\widgets.baml
+D:\Prog\C#\Template_WPF\obj\Debug\net6.0-windows\assets\variable\variables.baml
+D:\Prog\C#\Template_WPF\obj\Debug\net6.0-windows\config\config.baml
+D:\Prog\C#\Template_WPF\obj\Debug\net6.0-windows\Template_WPF.csproj.CopyComplete
+D:\Prog\C#\Template_WPF\obj\Debug\net6.0-windows\assets\theme\LaM0uette\rsc.baml

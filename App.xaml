@@ -10,8 +10,9 @@
                 <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Controls.xaml" />
                 
                 <!-- App -->
-                <ResourceDictionary Source="assets/font/font.xaml"/>
                 <ResourceDictionary Source="assets/theme/LaM0uette/colors.xaml"/>
+                <ResourceDictionary Source="assets/theme/LaM0uette/rsc.xaml"/>
+                <ResourceDictionary Source="assets/font/font.xaml"/>
                 <ResourceDictionary Source="assets/variable/variables.xaml"/>
                 <ResourceDictionary Source="config/config.xaml"/>
                 
@@ -19,7 +20,6 @@
                 <ResourceDictionary Source="assets/theme/LaM0uette/styles/titleBar.xaml"/>
                 <ResourceDictionary Source="assets/theme/LaM0uette/styles/body.xaml"/>
                 <ResourceDictionary Source="assets/theme/LaM0uette/styles/footer.xaml"/>
-                
                 <ResourceDictionary Source="assets/theme/LaM0uette/widgets.xaml"/>
                 
                 <!-- Img -->
