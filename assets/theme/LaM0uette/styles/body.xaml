@@ -25,5 +25,13 @@
         <Setter Property="BorderThickness" Value="1"></Setter>
         <Setter Property="BorderBrush" Value="{StaticResource RgbB1}"></Setter>
     </Style>
+    
+    <!-- StackPanel -->
+    <!-- DemoWidget -->
+    <Style x:Key="StkPanDemo" TargetType="StackPanel">
+        <Setter Property="Orientation" Value="Horizontal"></Setter>
+        <Setter Property="HorizontalAlignment" Value="Center"></Setter>
+        <Setter Property="Margin" Value="10"></Setter>
+    </Style>
 
 </ResourceDictionary>
