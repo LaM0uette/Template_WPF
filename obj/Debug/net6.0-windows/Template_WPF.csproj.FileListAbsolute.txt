@@ -74,4 +74,3 @@ D:\Prog\C#\Template_WPF\obj\Debug\net6.0-windows\config\config.baml
 D:\Prog\C#\Template_WPF\obj\Debug\net6.0-windows\Template_WPF.csproj.CopyComplete
 D:\Prog\C#\Template_WPF\obj\Debug\net6.0-windows\assets\theme\LaM0uette\rsc.baml
 D:\Prog\C#\Template_WPF\obj\Debug\net6.0-windows\assets\theme\LaM0uette\font.baml
-D:\Prog\C#\Template_WPF\obj\Debug\net6.0-windows\Fonts\Fonts.baml

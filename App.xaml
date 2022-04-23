@@ -6,10 +6,8 @@
     <Application.Resources>
         <ResourceDictionary>
             <Style x:Key="WinAll" TargetType="{x:Type Window}">
-                <Setter Property="FontFamily"
-                        Value="Courier New"/>
-                <Setter Property="FontSize"
-                        Value="16" />
+                <Setter Property="FontFamily" Value="Roboto"/>
+                <Setter Property="FontSize" Value="16" />
             </Style>
             <ResourceDictionary.MergedDictionaries>
                 <!-- MetroWindow -->
@@ -18,7 +16,6 @@
                 <!-- App -->
                 <ResourceDictionary Source="assets/theme/LaM0uette/colors.xaml"/>
                 <ResourceDictionary Source="assets/theme/LaM0uette/rsc.xaml"/>
-                <ResourceDictionary Source="Fonts/Fonts.xaml"/>
                 <ResourceDictionary Source="assets/variable/variables.xaml"/>
                 <ResourceDictionary Source="config/config.xaml"/>
                 
