@@ -35,7 +35,7 @@
     <Style x:Key="BaseRound" BasedOn="{StaticResource {x:Type Button}}" TargetType="{x:Type Button}">
         <Style.Resources>
             <Style TargetType="Border">
-                <Setter Property="CornerRadius" Value="3"></Setter>
+                <Setter Property="CornerRadius" Value="{StaticResource RscRound}"></Setter>
             </Style>
         </Style.Resources>
     </Style>
