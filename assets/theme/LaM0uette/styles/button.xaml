@@ -1,7 +1,7 @@
 ﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
     
-    <!-- Button -->
+    
     <!-- Base -->
     <Style x:Key="ButtonBase" TargetType="{x:Type Button}">
         <Setter Property="Background" Value="{StaticResource RgbM2}"/>
@@ -36,12 +36,15 @@
             </Trigger>
         </Style.Triggers>
     </Style>
+    <!-- /Base -->
+    
     
     <!-- Default -->
     <Style TargetType="{x:Type Button}" BasedOn="{StaticResource ButtonBase}">
         
     </Style>
-    <!-- Default round -->
+    
+    <!-- Round -->
     <Style x:Key="ButtonBaseRound" TargetType="{x:Type Button}" BasedOn="{StaticResource ButtonBase}">
         <Style.Resources>
             <Style TargetType="Border">
@@ -49,6 +52,8 @@
             </Style>
         </Style.Resources>
     </Style>
+    <!-- /Default -->
+    
     
     <!-- Texts -->
     <Style x:Key="ButtonTxt" TargetType="{x:Type Button}" BasedOn="{StaticResource ButtonBase}">
@@ -78,7 +83,8 @@
             </Trigger>
         </Style.Triggers>
     </Style>
-    <!-- Texts round -->
+    
+    <!-- Round -->
     <Style x:Key="ButtonTxtRound" TargetType="{x:Type Button}" BasedOn="{StaticResource ButtonTxt}">
         <Style.Resources>
             <Style TargetType="Border">
@@ -86,6 +92,8 @@
             </Style>
         </Style.Resources>
     </Style>
+    <!-- /Texts -->
+    
     
     <!-- Texts Inv -->
     <Style x:Key="ButtonTxtInv" TargetType="{x:Type Button}" BasedOn="{StaticResource ButtonBase}">
@@ -120,7 +128,8 @@
             </Trigger>
         </Style.Triggers>
     </Style>
-    <!-- Texts Inv round -->
+    
+    <!-- Round -->
     <Style x:Key="ButtonTxtInvRound" TargetType="{x:Type Button}" BasedOn="{StaticResource ButtonTxtInv}">
         <Style.Resources>
             <Style TargetType="Border">
@@ -128,6 +137,8 @@
             </Style>
         </Style.Resources>
     </Style>
+    <!-- /Texts Inv -->
+    
     
     <!-- Dlg OK -->
     <Style x:Key="ButtonDlgOk" TargetType="{x:Type Button}" BasedOn="{StaticResource ButtonTxt}">
@@ -156,7 +167,8 @@
             </Trigger>
         </Style.Triggers>
     </Style>
-    <!-- Dlg OK round -->
+    
+    <!-- Round -->
     <Style x:Key="ButtonDlgOkRound" TargetType="{x:Type Button}" BasedOn="{StaticResource ButtonDlgOk}">
         <Style.Resources>
             <Style TargetType="Border">
@@ -164,6 +176,8 @@
             </Style>
         </Style.Resources>
     </Style>
+    <!-- /Dlg OK -->
+    
     
     <!-- Dlg OK Bis -->
     <Style x:Key="ButtonDlgOkBis" TargetType="{x:Type Button}" BasedOn="{StaticResource ButtonTxt}">
@@ -192,7 +206,8 @@
             </Trigger>
         </Style.Triggers>
     </Style>
-    <!-- Dlg OK round -->
+    
+    <!-- Round -->
     <Style x:Key="ButtonDlgOkBisRound" TargetType="{x:Type Button}" BasedOn="{StaticResource ButtonDlgOkBis}">
         <Style.Resources>
             <Style TargetType="Border">
@@ -200,6 +215,8 @@
             </Style>
         </Style.Resources>
     </Style>
+    <!-- /Dlg OK Bis -->
+    
     
     <!-- Dlg NOK -->
     <Style x:Key="ButtonDlgNok" TargetType="{x:Type Button}" BasedOn="{StaticResource ButtonTxt}">
@@ -228,7 +245,8 @@
             </Trigger>
         </Style.Triggers>
     </Style>
-    <!-- Dlg NOK round -->
+    
+    <!-- Round -->
     <Style x:Key="ButtonDlgNokRound" TargetType="{x:Type Button}" BasedOn="{StaticResource ButtonDlgNok}">
         <Style.Resources>
             <Style TargetType="Border">
@@ -236,6 +254,8 @@
             </Style>
         </Style.Resources>
     </Style>
+    <!-- Dlg NOK -->
+    
     
     <!-- Dlg NOK Bis -->
     <Style x:Key="ButtonDlgNokBis" TargetType="{x:Type Button}" BasedOn="{StaticResource ButtonTxt}">
@@ -264,7 +284,8 @@
             </Trigger>
         </Style.Triggers>
     </Style>
-    <!-- Dlg NOK round -->
+    
+    <!-- Round -->
     <Style x:Key="ButtonDlgNokBisRound" TargetType="{x:Type Button}" BasedOn="{StaticResource ButtonDlgNokBis}">
         <Style.Resources>
             <Style TargetType="Border">
@@ -272,6 +293,8 @@
             </Style>
         </Style.Resources>
     </Style>
+    <!-- /Dlg NOK Bis -->
+    
     
 </ResourceDictionary>
 
