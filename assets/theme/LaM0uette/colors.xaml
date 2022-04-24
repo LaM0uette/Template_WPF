@@ -11,14 +11,14 @@
     <Color x:Key="Nok1">#F11726</Color>
     <Color x:Key="Nok2">#FFDC562E</Color>
     
-    <SolidColorBrush x:Key="RgbM1" Color="#FF3A3A41"/>
-    <SolidColorBrush x:Key="RgbM2" Color="#FF8F8FA3"/>
-    <SolidColorBrush x:Key="RgbM3" Color="#FFFFFAFF"/>
-    <SolidColorBrush x:Key="RgbB1" Color="#FF44AAB8"/>
-    <SolidColorBrush x:Key="RgbB2" Color="#FFE53843"/>
-    <SolidColorBrush x:Key="RgbOk1" Color="#A1E510"/>
-    <SolidColorBrush x:Key="RgbOk2" Color="#2DC8AB"/>
-    <SolidColorBrush x:Key="RgbNok1" Color="#F11726"/>
-    <SolidColorBrush x:Key="RgbNok2" Color="#FFDC562E"/>
+    <SolidColorBrush x:Key="RgbM1" Color="{StaticResource M1}"/>
+    <SolidColorBrush x:Key="RgbM2" Color="{StaticResource M2}"/>
+    <SolidColorBrush x:Key="RgbM3" Color="{StaticResource M3}"/>
+    <SolidColorBrush x:Key="RgbB1" Color="{StaticResource B1}"/>
+    <SolidColorBrush x:Key="RgbB2" Color="{StaticResource B2}"/>
+    <SolidColorBrush x:Key="RgbOk1" Color="{StaticResource Ok1}"/>
+    <SolidColorBrush x:Key="RgbOk2" Color="{StaticResource Ok2}"/>
+    <SolidColorBrush x:Key="RgbNok1" Color="{StaticResource Nok1}"/>
+    <SolidColorBrush x:Key="RgbNok2" Color="{StaticResource Nok2}"/>
 
 </ResourceDictionary>
