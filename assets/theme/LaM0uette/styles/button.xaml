@@ -201,6 +201,78 @@
         </Style.Resources>
     </Style>
     
+    <!-- Dlg NOK -->
+    <Style x:Key="ButtonDlgNok" TargetType="{x:Type Button}" BasedOn="{StaticResource ButtonTxt}">
+        <Setter Property="Foreground" Value="{StaticResource RgbNok1}"/>
+        
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type Button}">
+                    <Border Background="{TemplateBinding Background}"
+                            BorderThickness="1"
+                            BorderBrush="{StaticResource RgbNok1}">
+                        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                    </Border>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+        
+        <Style.Triggers>
+            <Trigger Property="IsMouseOver" Value="True">
+                <Setter Property="Background" Value="{StaticResource RgbNok1}"/>
+                <Setter Property="Foreground" Value="{StaticResource RgbM1}"/>
+            </Trigger>
+            
+            <Trigger Property="IsPressed" Value="True">
+                <Setter Property="Foreground" Value="{StaticResource RgbB2}"/>
+            </Trigger>
+        </Style.Triggers>
+    </Style>
+    <!-- Dlg NOK round -->
+    <Style x:Key="ButtonDlgNokRound" TargetType="{x:Type Button}" BasedOn="{StaticResource ButtonDlgNok}">
+        <Style.Resources>
+            <Style TargetType="Border">
+                <Setter Property="CornerRadius" Value="{StaticResource RscRound}"></Setter>
+            </Style>
+        </Style.Resources>
+    </Style>
+    
+    <!-- Dlg NOK Bis -->
+    <Style x:Key="ButtonDlgNokBis" TargetType="{x:Type Button}" BasedOn="{StaticResource ButtonTxt}">
+        <Setter Property="Foreground" Value="{StaticResource RgbNok2}"/>
+        
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type Button}">
+                    <Border Background="{TemplateBinding Background}"
+                            BorderThickness="1"
+                            BorderBrush="{StaticResource RgbNok2}">
+                        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                    </Border>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+        
+        <Style.Triggers>
+            <Trigger Property="IsMouseOver" Value="True">
+                <Setter Property="Background" Value="{StaticResource RgbNok2}"/>
+                <Setter Property="Foreground" Value="{StaticResource RgbM1}"/>
+            </Trigger>
+            
+            <Trigger Property="IsPressed" Value="True">
+                <Setter Property="Foreground" Value="{StaticResource RgbB2}"/>
+            </Trigger>
+        </Style.Triggers>
+    </Style>
+    <!-- Dlg NOK round -->
+    <Style x:Key="ButtonDlgNokBisRound" TargetType="{x:Type Button}" BasedOn="{StaticResource ButtonDlgNokBis}">
+        <Style.Resources>
+            <Style TargetType="Border">
+                <Setter Property="CornerRadius" Value="{StaticResource RscRound}"></Setter>
+            </Style>
+        </Style.Resources>
+    </Style>
+    
 </ResourceDictionary>
 
 <!--

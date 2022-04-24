@@ -64,31 +64,42 @@
                                 
                                 <!-- Base -->
                                 <StackPanel Style="{StaticResource StkPanDemo}">
-                                    <Button Width="150" Content="Base"/>
+                                    <Button Width="180" Content="Base"/>
                                     <Separator Style="{StaticResource Spacer}"/>
-                                    <Button Style="{StaticResource ButtonBaseRound}" Width="150" Content="ButtonBaseRound"/>
+                                    <Button Style="{StaticResource ButtonBaseRound}" Width="180" Content="ButtonBaseRound"/>
                                 </StackPanel>
                                 
                                 <!-- Texts -->
                                 <StackPanel Style="{StaticResource StkPanDemo}">
-                                    <Button Style="{StaticResource ButtonTxt}" Width="150" Content="ButtonTxt"/>
+                                    <Button Style="{StaticResource ButtonTxt}" Width="180" Content="ButtonTxt"/>
                                     <Separator Style="{StaticResource Spacer}"/>
-                                    <Button Style="{StaticResource ButtonTxtRound}" Width="150" Content="ButtonTxtRound"/>
+                                    <Button Style="{StaticResource ButtonTxtRound}" Width="180" Content="ButtonTxtRound"/>
                                     <Separator Style="{StaticResource Spacer}"/>
-                                    <Button Style="{StaticResource ButtonTxtInv}" Width="150" Content="ButtonTxtInv"/>
+                                    <Button Style="{StaticResource ButtonTxtInv}" Width="180" Content="ButtonTxtInv"/>
                                     <Separator Style="{StaticResource Spacer}"/>
-                                    <Button Style="{StaticResource ButtonTxtInvRound}" Width="150" Content="ButtonTxtInvRound"/>
+                                    <Button Style="{StaticResource ButtonTxtInvRound}" Width="180" Content="ButtonTxtInvRound"/>
                                 </StackPanel>
                                 
                                 <!-- Dlg OK -->
                                 <StackPanel Style="{StaticResource StkPanDemo}">
-                                    <Button Style="{StaticResource ButtonDlgOk}" Width="150" Content="ButtonDlgOk"/>
+                                    <Button Style="{StaticResource ButtonDlgOk}" Width="180" Content="ButtonDlgOk"/>
                                     <Separator Style="{StaticResource Spacer}"/>
-                                    <Button Style="{StaticResource ButtonDlgOkRound}" Width="150" Content="ButtonDlgOkRound"/>
+                                    <Button Style="{StaticResource ButtonDlgOkRound}" Width="180" Content="ButtonDlgOkRound"/>
                                     <Separator Style="{StaticResource Spacer}"/>
-                                    <Button Style="{StaticResource ButtonDlgOkBis}" Width="150" Content="ButtonDlgOkBis"/>
+                                    <Button Style="{StaticResource ButtonDlgOkBis}" Width="180" Content="ButtonDlgOkBis"/>
                                     <Separator Style="{StaticResource Spacer}"/>
-                                    <Button Style="{StaticResource ButtonDlgOkBisRound}" Width="150" Content="ButtonDlgOkBisRound"/>
+                                    <Button Style="{StaticResource ButtonDlgOkBisRound}" Width="180" Content="ButtonDlgOkBisRound"/>
+                                </StackPanel>
+                                
+                                <!-- Dlg NOK -->
+                                <StackPanel Style="{StaticResource StkPanDemo}">
+                                    <Button Style="{StaticResource ButtonDlgNok}" Width="180" Content="ButtonDlgNok"/>
+                                    <Separator Style="{StaticResource Spacer}"/>
+                                    <Button Style="{StaticResource ButtonDlgNokRound}" Width="180" Content="ButtonDlgNokRound"/>
+                                    <Separator Style="{StaticResource Spacer}"/>
+                                    <Button Style="{StaticResource ButtonDlgNokBis}" Width="180" Content="ButtonDlgNokBis"/>
+                                    <Separator Style="{StaticResource Spacer}"/>
+                                    <Button Style="{StaticResource ButtonDlgNokBisRound}" Width="180" Content="ButtonDlgNokBisRound"/>
                                 </StackPanel>
                             </StackPanel>
                         </Border>
