@@ -66,6 +66,12 @@
                                 <StackPanel Style="{StaticResource StkPanDemo}">
                                     <Button Width="180" Content="Base"/>
                                     <Separator Style="{StaticResource Spacer}"/>
+                                    
+                                    <Button Style="{StaticResource BaseTest}" Width="180" Content="BaseTest"/>
+                                    <Separator Style="{StaticResource Spacer}"/>
+                                    <Button Style="{StaticResource Tt}" Width="180" Content="BaseTest"/>
+                                    
+                                    <Separator Style="{StaticResource Spacer}"/>
                                     <Button Style="{StaticResource ButtonBaseRound}" Width="180" Content="ButtonBaseRound"/>
                                 </StackPanel>
                                 
