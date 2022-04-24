@@ -91,6 +91,17 @@
                                     <Button Style="{StaticResource ButtonDlgOkBisRound}" Width="180" Content="ButtonDlgOkBisRound"/>
                                 </StackPanel>
                                 
+                                <!-- Dlg OK Inv -->
+                                <StackPanel Style="{StaticResource StkPanDemo}">
+                                    <Button Style="{StaticResource ButtonDlgOkInv}" Width="180" Content="ButtonDlgOkInv"/>
+                                    <Separator Style="{StaticResource Spacer}"/>
+                                    <Button Style="{StaticResource ButtonDlgOkInvRound}" Width="180" Content="ButtonDlgOkInvRound"/>
+                                    <Separator Style="{StaticResource Spacer}"/>
+                                    <Button Style="{StaticResource ButtonDlgOkBis}" Width="180" Content="ButtonDlgOkBis"/>
+                                    <Separator Style="{StaticResource Spacer}"/>
+                                    <Button Style="{StaticResource ButtonDlgOkBisRound}" Width="180" Content="ButtonDlgOkBisRound"/>
+                                </StackPanel>
+                                
                                 <!-- Dlg NOK -->
                                 <StackPanel Style="{StaticResource StkPanDemo}">
                                     <Button Style="{StaticResource ButtonDlgNok}" Width="180" Content="ButtonDlgNok"/>
