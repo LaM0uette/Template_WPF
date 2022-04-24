@@ -239,6 +239,43 @@
             </Style>
         </Style.Resources>
     </Style>
+        <!-- OK Bis Inv -->
+    <Style x:Key="ButtonDlgOkBisInv" TargetType="{x:Type Button}" BasedOn="{StaticResource ButtonBase}">
+        <Setter Property="Background" Value="{StaticResource RgbOk2}"/>
+        <Setter Property="Foreground" Value="{StaticResource RgbM1}"/>
+        
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type Button}">
+                    <Border x:Name="ButtonTxtInvBorder" 
+                            Background="{TemplateBinding Background}"
+                            BorderThickness="1"
+                            BorderBrush="{StaticResource RgbOk2}">
+                        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                    </Border>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+        
+        <Style.Triggers>
+            <Trigger Property="IsMouseOver" Value="True">
+                <Setter Property="Background" Value="{StaticResource RgbM1}"/>
+                <Setter Property="Foreground" Value="{StaticResource RgbOk2}"/>
+            </Trigger>
+            
+            <Trigger Property="IsPressed" Value="True">
+                <Setter Property="Foreground" Value="{StaticResource RgbB1}"/>
+            </Trigger>
+        </Style.Triggers>
+    </Style>
+        <!-- Round -->
+    <Style x:Key="ButtonDlgOkBisInvRound" TargetType="{x:Type Button}" BasedOn="{StaticResource ButtonDlgOkBisInv}">
+        <Style.Resources>
+            <Style TargetType="Border">
+                <Setter Property="CornerRadius" Value="{StaticResource RscRound}"></Setter>
+            </Style>
+        </Style.Resources>
+    </Style>
     
         <!-- NOK -->
     <Style x:Key="ButtonDlgNok" TargetType="{x:Type Button}" BasedOn="{StaticResource ButtonTxt}">
