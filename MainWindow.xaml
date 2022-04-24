@@ -112,6 +112,17 @@
                                     <Separator Style="{StaticResource Spacer}"/>
                                     <Button Style="{StaticResource ButtonDlgNokBisRound}" Width="180" Content="ButtonDlgNokBisRound"/>
                                 </StackPanel>
+                                
+                                <!-- Dlg NOK Inv -->
+                                <StackPanel Style="{StaticResource StkPanDemo}">
+                                    <Button Style="{StaticResource ButtonDlgNokInv}" Width="180" Content="ButtonDlgNokInv"/>
+                                    <Separator Style="{StaticResource Spacer}"/>
+                                    <Button Style="{StaticResource ButtonDlgNokInvRound}" Width="180" Content="ButtonDlgNokInvRound"/>
+                                    <Separator Style="{StaticResource Spacer}"/>
+                                    <Button Style="{StaticResource ButtonDlgNokBisInv}" Width="180" Content="ButtonDlgNokBisInv"/>
+                                    <Separator Style="{StaticResource Spacer}"/>
+                                    <Button Style="{StaticResource ButtonDlgNokBisInvRound}" Width="180" Content="ButtonDlgNokBisInvRound"/>
+                                </StackPanel>
                             </StackPanel>
                         </Border>
                 
