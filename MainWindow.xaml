@@ -11,17 +11,17 @@
         MinWidth="{Binding Source={StaticResource AppWidth}}"
         Height="{Binding Source={StaticResource AppHeight}}" 
         MinHeight="{Binding Source={StaticResource AppHeight}}"
-        ShowTitleBar="True"
+            ShowTitleBar="True"
         ResizeMode="CanResizeWithGrip"
-        WindowTransitionsEnabled="False"
+            WindowTransitionsEnabled="False"
         WindowStartupLocation="CenterScreen"
         TitleAlignment="Center"
         Icon="{StaticResource Main}"
         IconBitmapScalingMode="HighQuality"
         GlowBrush="{StaticResource RgbM2}"
         WindowTitleBrush="{StaticResource RgbM1}"
-        SnapsToDevicePixels="True"
-        UseLayoutRounding="True">
+            SnapsToDevicePixels="True"
+            UseLayoutRounding="True">
 
     <!-- Header -->
     <!-- ButtonTitleBar -->

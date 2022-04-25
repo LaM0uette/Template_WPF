@@ -1,6 +1,12 @@
 ﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
     
+    <!-- <Color x:Key="M1">#FF3A3A41</Color> -->
+    <!-- <Color x:Key="M2">#FF8F8FA3</Color> -->
+    <!-- <Color x:Key="M3">#FFFFFAFF</Color> -->
+    <!-- <Color x:Key="B1">#FF44AAB8</Color> -->
+    <!-- <Color x:Key="B2">#FFE53843</Color> -->
+    
     <Color x:Key="M1">#FF3A3A41</Color>
     <Color x:Key="M2">#FF8F8FA3</Color>
     <Color x:Key="M3">#FFFFFAFF</Color>
