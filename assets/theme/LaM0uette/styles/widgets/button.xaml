@@ -428,37 +428,27 @@
     
     
     <Style x:Key="BaseTest" TargetType="{x:Type Button}">
-        <Style.Resources>
-            <SolidColorBrush x:Key="Test" Color="{DynamicResource B2}"></SolidColorBrush>
-        </Style.Resources>
-        
-        <Setter Property="Background" Value="{StaticResource RgbM2}"/>
-        <Setter Property="Foreground" Value="{StaticResource RgbM3}"/>
-        <Setter Property="Height" Value="{StaticResource WgHeight}"/>
-        <Setter Property="Cursor" Value="Hand"/>
-        
-        <Setter Property="Effect">
-            <Setter.Value>
-                <DropShadowEffect Color="#FF242424" Direction="320" ShadowDepth="3" BlurRadius="4" Opacity="0.2" />
-            </Setter.Value>
-        </Setter>
-        
+        <Setter Property="Tag" Value="{StaticResource RgbOk1}"/>
+        <Setter Property="Background" Value="{StaticResource RgbM1}"/>
+        <Setter Property="Foreground" Value="{Binding RelativeSource={RelativeSource Self}, Path=Tag}"/>
+
         <Setter Property="Template">
             <Setter.Value>
                 <ControlTemplate TargetType="{x:Type Button}">
-                    <Border Background="{TemplateBinding Background}">
+                    <Border Background="{TemplateBinding Background}"
+                            BorderThickness="1"
+                            BorderBrush="{TemplateBinding Tag}">
                         <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
                     </Border>
                     
                     <ControlTemplate.Triggers>
                         <Trigger Property="IsMouseOver" Value="True">
-                            <Setter Property="Background" Value="{StaticResource RgbM3}"/>
-                            <Setter Property="Foreground" Value="{StaticResource RgbM2}"/>
+                            <Setter Property="Background" Value="{Binding RelativeSource={RelativeSource Self}, Path=Tag}"/>
+                            <Setter Property="Foreground" Value="{StaticResource RgbM1}"/>
                         </Trigger>
             
                         <Trigger Property="IsPressed" Value="True">
                             <Setter Property="Foreground" Value="{StaticResource RgbB1}"/>
-                            <Setter Property="Background" Value="{StaticResource Test}"/>
                         </Trigger>
                     </ControlTemplate.Triggers>
                 </ControlTemplate>
@@ -467,11 +457,9 @@
     </Style>
     
     <Style x:Key="Tt" TargetType="{x:Type Button}" BasedOn="{StaticResource BaseTest}">
-        <Style.Resources>
-            <SolidColorBrush x:Key="Test" Color="{DynamicResource B1}"></SolidColorBrush>
-        </Style.Resources>
+        <Setter Property="Background" Value="{StaticResource RgbM1}"/>
+        <Setter Property="Tag" Value="{StaticResource RgbNok1}"/>
     </Style>
-    
     
 </ResourceDictionary>
 
