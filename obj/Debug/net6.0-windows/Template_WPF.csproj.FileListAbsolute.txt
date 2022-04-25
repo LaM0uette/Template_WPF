@@ -20,10 +20,8 @@ D:\Prog\C#\Template_WPF\obj\Debug\net6.0-windows\ref\Template_WPF.dll
 D:\Prog\C#\Template_WPF\obj\Debug\net6.0-windows\App.baml
 D:\Prog\C#\Template_WPF\obj\Debug\net6.0-windows\refint\Template_WPF.dll
 C:\Prog\C#\Template_WPF\obj\Debug\net6.0-windows\Template_WPF.csproj.AssemblyReference.cache
-C:\Prog\C#\Template_WPF\obj\Debug\net6.0-windows\assets\font\font.baml
 C:\Prog\C#\Template_WPF\obj\Debug\net6.0-windows\assets\img\main\main.baml
 C:\Prog\C#\Template_WPF\obj\Debug\net6.0-windows\assets\theme\LaM0uette\colors.baml
-C:\Prog\C#\Template_WPF\obj\Debug\net6.0-windows\assets\theme\LaM0uette\font.baml
 C:\Prog\C#\Template_WPF\obj\Debug\net6.0-windows\assets\theme\LaM0uette\styles\titleBar.baml
 C:\Prog\C#\Template_WPF\obj\Debug\net6.0-windows\assets\variable\variables.baml
 C:\Prog\C#\Template_WPF\obj\Debug\net6.0-windows\MainWindow.baml
@@ -55,7 +53,6 @@ C:\Prog\C#\Template_WPF\obj\Debug\net6.0-windows\assets\img\img.baml
 C:\Prog\C#\Template_WPF\obj\Debug\net6.0-windows\config\config.baml
 C:\Prog\C#\Template_WPF\obj\Debug\net6.0-windows\assets\theme\LaM0uette\styles\footer.baml
 C:\Prog\C#\Template_WPF\obj\Debug\net6.0-windows\assets\theme\LaM0uette\styles\body.baml
-C:\Prog\C#\Template_WPF\obj\Debug\net6.0-windows\assets\theme\LaM0uette\styles\button.baml
 C:\Prog\C#\Template_WPF\obj\Debug\net6.0-windows\assets\theme\LaM0uette\widgets.baml
 D:\Prog\C#\Template_WPF\bin\Debug\net6.0-windows\ControlzEx.dll
 D:\Prog\C#\Template_WPF\bin\Debug\net6.0-windows\MahApps.Metro.dll
@@ -73,3 +70,5 @@ D:\Prog\C#\Template_WPF\obj\Debug\net6.0-windows\config\config.baml
 D:\Prog\C#\Template_WPF\obj\Debug\net6.0-windows\Template_WPF.csproj.CopyComplete
 D:\Prog\C#\Template_WPF\obj\Debug\net6.0-windows\assets\theme\LaM0uette\rsc.baml
 D:\Prog\C#\Template_WPF\obj\Debug\net6.0-windows\assets\theme\LaM0uette\styles\widgets\button.baml
+C:\Prog\C#\Template_WPF\obj\Debug\net6.0-windows\assets\theme\LaM0uette\rsc.baml
+C:\Prog\C#\Template_WPF\obj\Debug\net6.0-windows\assets\theme\LaM0uette\styles\widgets\button.baml
